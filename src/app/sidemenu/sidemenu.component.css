@@ -1,12 +1,51 @@
+div {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+a:hover, button:hover, span:hover {
+  color: #fff;
+}
+
 .root_navbar {
   background-color: rgba(0, 0, 0, 8);
   color: #fff;
 }
 
 .nav_group {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: .015em;
-    font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .015em;
+  font-weight: 500;
 }
 
+.nav_header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px 0px 20px;
+}
+
+.nav_items {
+  list-style: none;
+}
+
+.rootList {
+  font-size: 11px;
+  line-height: 16px;
+  color: #b3b3b3;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-weight: normal;
+}
+
+.btn-playlist{
+  width: 25px;
+  height: 25px;
+  background-color: #b3b3b3;
+  color: black;
+  align-items: center;
+}
