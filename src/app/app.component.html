@@ -1,14 +1,10 @@
-<div>
-    <div class="row">
-        <nav class="col-12 nav-style">
-            <app-sidemenu></app-sidemenu>
-        </nav>
+<div class="d-flex flex-row justify-content-between">
+    <div>
+        <app-sidemenu></app-sidemenu>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <router-outlet></router-outlet>
-        </div>
+    <div>
+        <router-outlet></router-outlet>
     </div>
 </div>
 <footer class="now-playing-bar-container fixed-bottom">
