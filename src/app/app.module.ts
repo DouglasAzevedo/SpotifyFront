@@ -7,8 +7,8 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { MainComponent } from './main/main.component';
 import { PlayerComponent } from './player/player.component';
 import { ListPlaylistComponent } from './main/list-playlist/list-playlist.component';
-import { BibliotecaComponent } from './sidemenu/biblioteca/biblioteca.component';
-import { PerfilComponent } from './sidemenu/perfil/perfil.component';
+import { BibliotecaComponent } from './biblioteca/biblioteca.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
