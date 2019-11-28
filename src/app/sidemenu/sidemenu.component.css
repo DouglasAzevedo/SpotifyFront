@@ -1,3 +1,12 @@
-.root_navbar{
-    background-color: rgba(0,0,0,8);
+.root_navbar {
+  background-color: rgba(0, 0, 0, 8);
+  color: #fff;
 }
+
+.nav_group {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .015em;
+    font-weight: 500;
+}
+
