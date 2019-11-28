@@ -1,22 +1,22 @@
 .container {
-  padding: 0 !important;
-  margin: 0px !important;
+    padding: 0 !important;
+    margin: 0px !important;
 }
 
 .now-playing-bar-container {
-  min-width: 620px;
-  background-color: #282828;
-  border-top: 1px solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: auto;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    min-width: 620px;
+    background-color: #282828;
+    border-top: 1px solid #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
