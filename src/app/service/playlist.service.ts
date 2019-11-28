@@ -27,5 +27,4 @@ export class PlaylistService {
     return this.http.post<PlayListMusicaDto>(WS_PLAYLISTS, playlist)
   }
 
-
 }

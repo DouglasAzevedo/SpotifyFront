@@ -15,3 +15,10 @@ export class PlayListDto {
     public pais: String
     public idCriador: Number
 }
+
+export class UsuarioDto {
+    public id: Number
+    public nome: String
+    public email: String
+    public pais: String
+}
