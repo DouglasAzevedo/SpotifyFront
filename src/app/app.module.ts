@@ -7,6 +7,8 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { MainComponent } from './main/main.component';
 import { PlayerComponent } from './player/player.component';
 import { ListPlaylistComponent } from './main/list-playlist/list-playlist.component';
+import { BibliotecaComponent } from './sidemenu/biblioteca/biblioteca.component';
+import { PerfilComponent } from './sidemenu/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ListPlaylistComponent } from './main/list-playlist/list-playlist.compon
     SidemenuComponent,
     MainComponent,
     PlayerComponent,
-    ListPlaylistComponent
+    ListPlaylistComponent,
+    BibliotecaComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

@@ -18,12 +18,6 @@ div {
   font-weight: var(--glue-font-weight-normal);
 }
 
-.playing_left {
-  display: flex;
-  vertical-align: baseline;
-  align-items: center;
-}
-
 .playing_center {
     color: white;
 }
@@ -36,16 +30,12 @@ div {
   height: auto;
   line-height: 16px;
   text-align: left;
-  flex-direction: column;
-  z-index: 1;
 }
 
 .info-autor {
   height: auto;
   line-height: 20px;
   text-align: left;
-  flex-direction: column;
-  z-index: 2;
 }
 
 .picture-button {
@@ -86,18 +76,6 @@ div {
 
 .player_buttons {
     
-}
-
-.playback {
-    width: 100%;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-pack: center;
-    align-items: center;
 }
 
 .bar-progress-time {
