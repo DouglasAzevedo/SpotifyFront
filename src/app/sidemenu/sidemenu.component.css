@@ -49,3 +49,7 @@ a:hover, button:hover, span:hover , li:hover{
   color: black;
   align-items: center;
 }
+
+.install-app {
+  margin-left: 20px;
+}

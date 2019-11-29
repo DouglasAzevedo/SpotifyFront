@@ -34,11 +34,8 @@
                     </button>&nbsp;
                     <span class="rootList">Criar Playlist</span>
                 </div>
-                <ul class="d-flex flex-column rootlist nav_items">
-                    <li>A</li>
-                    <li>B</li>
-                    <li>C</li>
-                    <li>D</li>
+                <ul *ngFor="let p in playlists" class="d-flex flex-column rootlist nav_items">
+                    <li>{{p.nome}}</li>
                 </ul>
             </div>
 
@@ -51,7 +48,7 @@
                 </div>
             </div>
             <div class="perfil-name d-flex flex-column">
-                <span class="rootlist">Douglas Azevedo</span>
+                <span class="rootlist">{{nome}}</span>
             </div>
 
         </nav>
