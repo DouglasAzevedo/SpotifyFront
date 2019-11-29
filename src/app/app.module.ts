@@ -11,6 +11,7 @@ import { MainComponent } from './main/main.component';
 import { PlayerComponent } from './player/player.component';
 import { BibliotecaComponent } from './biblioteca/biblioteca.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { BuscarComponent } from './buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     MainComponent,
     PlayerComponent,
     BibliotecaComponent,
-    PerfilComponent
+    PerfilComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
