@@ -1,5 +1,8 @@
 .perfil_main {
     background-color: #282828;
     color: #fff;
-    flex: 1;
+}
+
+.row {
+    margin-right: auto;
 }

@@ -1,9 +1,7 @@
-.container {
-    padding: 0 !important;
-    margin: 0px !important;
-}
-
 .now-playing-bar-container {
-    background-color: #282828;
-    border-top: 1px solid #000;
+  background-color: #282828;
+  border-top: 1px solid #000;
+} 
+.row {
+    margin-right: auto;
 }

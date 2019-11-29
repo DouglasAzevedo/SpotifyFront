@@ -1,12 +1,12 @@
-<div class="d-flex flex-row">
-    <div>
+<div class="row">
+    <div class="col-2" style="height: 100%;">
         <app-sidemenu></app-sidemenu>
     </div>
-
-    <div class="col-4">
+    <div class="col-9" style="height: 100%">
         <router-outlet></router-outlet>
     </div>
 </div>
-<footer class="now-playing-bar-container fixed-bottom">
+
+<div class="fixed-bottom">   
     <app-player></app-player>
-</footer>
+</div>
