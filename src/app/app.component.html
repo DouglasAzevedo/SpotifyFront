@@ -1,12 +1,11 @@
-<div class="row">
-    <div class="col-2" style="height: 100%;">
+<div class="app_container">
+    <nav>
         <app-sidemenu></app-sidemenu>
-    </div>
-    <div class="col-10" style="height: 100%">
+    </nav>
+    <main>
         <router-outlet></router-outlet>
-    </div>
-</div>
-
-<div class="fixed-bottom">
-    <app-player></app-player>
+    </main>
+    <footer>
+        <app-player></app-player>
+    </footer>
 </div>

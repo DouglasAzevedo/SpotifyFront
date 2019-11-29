@@ -9,9 +9,9 @@ import { AppComponent } from './app.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { MainComponent } from './main/main.component';
 import { PlayerComponent } from './player/player.component';
-import { ListPlaylistComponent } from './main/list-playlist/list-playlist.component';
 import { BibliotecaComponent } from './biblioteca/biblioteca.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { BuscarComponent } from './buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +19,9 @@ import { PerfilComponent } from './perfil/perfil.component';
     SidemenuComponent,
     MainComponent,
     PlayerComponent,
-    ListPlaylistComponent,
     BibliotecaComponent,
-    PerfilComponent
+    PerfilComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,

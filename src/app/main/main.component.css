@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #b3b3b3;
+  }
+.pai {
+    grid-row-gap: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+}
