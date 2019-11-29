@@ -1,0 +1,7 @@
+.root-list {
+  overflow: hidden;
+  position: relative;
+  margin-left: 10px;
+  background-color: #282828;
+  color: #fff;
+}
