@@ -2,12 +2,12 @@ div {
   align-items: center;
 }
 
-a {
+a, li {
   text-decoration: none;
   color: #b3b3b3;
 }
 
-a:hover, button:hover, span:hover {
+a:hover, button:hover, span:hover , li:hover{
   color: #fff;
 }
 
@@ -25,8 +25,7 @@ a:hover, button:hover, span:hover {
 
 .nav_header {
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px 0px 20px;
+  padding: 15px 20px 0px 20px;  
 }
 
 .nav_items {

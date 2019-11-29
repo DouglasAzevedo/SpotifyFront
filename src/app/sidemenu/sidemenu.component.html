@@ -1,4 +1,4 @@
-<nav class="root_navbar nav_group">
+<nav class="root_navbar nav_group" style="height: 100%;">
     <div class="nav_header d-flex">
         <img class="img-fluid" src="https://www.iconsdb.com/icons/preview/white/spotify-xxl.png" width="50" height="60"
             viewBox="0 0 60 60">&nbsp;
@@ -19,24 +19,29 @@
                     </li>
                     <br>
                     <li class="nav-item">
-                        <i class="fa fa-home fa-lg"></i>
-                        <a routerLink="/biblioteca">&nbsp;Sua Biblioteca</a>
+                        <i class="fa fa-book fa-lg"></i>
+                        <a routerLink="/biblioteca">&nbsp;&nbsp;Sua Biblioteca</a>
                     </li>
                 </ul>
             </div>
+            <br><br>
             <div class="d-flex flex-column nav_items">
                 <span class="rootList">Playlist</span>
                 <br>
-                <span class="rootList">Criar
-                    Playlist</span>
-                <!-- <div class="flex-row">
-                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>&nbsp;
-                </div> -->
+                <div class="flex-row">
+                    <button>
+                        <i class="fa fa-plus fa-lg"></i>
+                    </button>&nbsp;
+                    <span class="rootList">Criar Playlist</span>
+                </div>
+                <ul class="d-flex flex-column rootlist nav_items">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+                </ul>
             </div>
-            <!-- VAI FICAR A LISTA DE PLAYLISTS QUE VIRAO DO BACKEND -->
-            <!-- <ul *ngFor="let p in playlists">
-                <li>{{p.nome}}</li>
-            </ul> -->
+
         </nav>
     </div>
 </nav>
