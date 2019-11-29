@@ -1,1 +1,55 @@
-<p>main works!</p>
+<div class="card" (mouseenter)="liberar=true" (mouseleave)="liberar=false" style="position: relative;">
+    <img class="img-thumbnail" [src]="url" [alt]="description">
+    <p>{{nome}}</p>
+    <p>{{description}}</p>
+
+    <div *ngIf="liberar"
+        style="background-color: rgba(0, 0, 0, 0.199); height: 100%; width: 100%; position: absolute; top: 0; ">
+        <button type="button" class="btn btn-dark" style="margin-top: 50%;"><i class="fa fa-play-circle"></i></button>
+    </div>
+</div>
+
+<div class="card" (mouseenter)="liberar=true" (mouseleave)="liberar=false" style="position: relative;">
+        <img class="img-thumbnail" [src]="url" [alt]="description">
+        <p>{{nome}}</p>
+        <p>{{description}}</p>
+    
+        <div *ngIf="liberar"
+            style="background-color: rgba(0, 0, 0, 0.199); height: 100%; width: 100%; position: absolute; top: 0; ">
+            <button type="button" class="btn btn-dark" style="margin-top: 50%;"><i class="fa fa-play-circle"></i></button>
+        </div>
+    </div>
+
+    <div class="card" (mouseenter)="liberar=true" (mouseleave)="liberar=false" style="position: relative;">
+            <img class="img-thumbnail" [src]="url" [alt]="description">
+            <p>{{nome}}</p>
+            <p>{{description}}</p>
+        
+            <div *ngIf="liberar"
+                style="background-color: rgba(0, 0, 0, 0.199); height: 100%; width: 100%; position: absolute; top: 0; ">
+                <button type="button" class="btn btn-dark" style="margin-top: 50%;"><i class="fa fa-play-circle"></i></button>
+            </div>
+        </div>
+        
+        <div class="card" (mouseenter)="liberar=true" (mouseleave)="liberar=false" style="position: relative;">
+                <img class="img-thumbnail" [src]="url" [alt]="description">
+                <p>{{nome}}</p>
+                <p>{{description}}</p>
+            
+                <div *ngIf="liberar"
+                    style="background-color: rgba(0, 0, 0, 0.199); height: 100%; width: 100%; position: absolute; top: 0; ">
+                    <button type="button" class="btn btn-dark" style="margin-top: 50%;"><i class="fa fa-play-circle"></i></button>
+                </div>
+            </div>
+
+            <div class="card" (mouseenter)="liberar=true" (mouseleave)="liberar=false" style="position: relative;">
+                    <img class="img-thumbnail" [src]="url" [alt]="description">
+                    <p>{{nome}}</p>
+                    <p>{{description}}</p>
+                
+                    <div *ngIf="liberar"
+                        style="background-color: rgba(0, 0, 0, 0.199); height: 100%; width: 100%; position: absolute; top: 0; ">
+                        <button type="button" class="btn btn-dark" style="margin-top: 50%;"><i class="fa fa-play-circle"></i></button>
+                    </div>
+                </div>
+                
