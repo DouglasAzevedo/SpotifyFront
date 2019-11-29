@@ -22,3 +22,27 @@ export class UsuarioDto {
     public email: String
     public pais: String
 }
+
+export class NovaMusicaDto {
+    public nome: String
+    public idCriador: Number
+    public dataRegistro: Date
+    public faixa: String
+    public curtida: Boolean
+}
+
+export class CurtidaMusicaDto {
+    public id: Number
+    public curtida: Boolean
+}
+
+export class MusicaDto {
+    public id: Number
+    public nome: String
+    public idCriador: Number
+    public dataRegistro: Date
+    public faixa: String
+    public curtida: Boolean
+}
+
+

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { PlayListDto, NovaPlaylistDto, PlayListMusicaDto } from '../model/model';
-import { WS_PLAYLISTS } from '../utils/ws.constants';
+import { WS_ADD_PLAYLISTS, WS_REMOVE_PLAYLISTS, WS_PLAYLISTS } from '../utils/ws.constants';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -20,11 +20,11 @@ export class PlaylistService {
   }
 
   vinculaPlaylistMusica(playlist: PlayListMusicaDto) : Observable<any> {
-    return this.http.post<PlayListMusicaDto>(WS_PLAYLISTS, playlist)
+    return this.http.post<PlayListMusicaDto>(WS_ADD_PLAYLISTS, playlist)
   }
 
   removePlaylistMusica(playlist: PlayListMusicaDto) : Observable<any> {
-    return this.http.post<PlayListMusicaDto>(WS_PLAYLISTS, playlist)
+    return this.http.post<PlayListMusicaDto>(WS_REMOVE_PLAYLISTS, playlist)
   }
 
 }
