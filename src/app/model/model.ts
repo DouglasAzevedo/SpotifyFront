@@ -29,6 +29,7 @@ export class NovaMusicaDto {
     public dataRegistro: Date
     public faixa: String
     public curtida: Boolean
+    public duracao: Number
 }
 
 export class CurtidaMusicaDto {
@@ -43,6 +44,7 @@ export class MusicaDto {
     public dataRegistro: Date
     public faixa: String
     public curtida: Boolean
+    public duracao: Number
 }
 
 
