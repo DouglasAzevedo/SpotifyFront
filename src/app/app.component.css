@@ -1,7 +1,26 @@
-.now-playing-bar-container {
-  background-color: #282828;
-  border-top: 1px solid #000;
-} 
-.row {
-    margin-right: auto;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app_container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-rows: 85vh 15vh;
+  grid-template-areas: "nav main"
+                       "footer footer";
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
 }

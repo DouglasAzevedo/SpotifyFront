@@ -10,11 +10,12 @@ div {
   flex-direction: row;
   display: flex;
   background-color: #282828;
-  height: auto;
+  height: 15vh;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: .015em;
   font-weight: var(--glue-font-weight-normal);
+  border-top: black 1px solid;
 }
 
 .playing_center {
