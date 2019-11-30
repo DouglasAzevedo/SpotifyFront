@@ -1,7 +1,19 @@
+* {
+  background-color: #282828;
+}
 .root-list {
   overflow: hidden;
   position: relative;
-  margin-left: 10px;
+  margin-left: 5px;
   background-color: #282828;
   color: #fff;
+  overflow-y: auto;
+  height: 77vh;
 }
+
+.root {
+  background-color: #282828;
+  color: red;
+  font-weight: 500;
+}
+

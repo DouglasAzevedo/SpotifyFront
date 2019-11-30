@@ -1,7 +1,7 @@
-<div class="root">
+<div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav root">
                 <li class="nav-item active">
                     <a class="nav-link">Em destaque <span class="sr-only">(current)</span></a>
                 </li>
@@ -37,4 +37,11 @@
             <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome"></app-main>
         </li>
     </ol>
+    <h1>Recently Played</h1>
+    <ol class="row list-unstyled">
+        <li *ngFor="let a of albuns">
+            <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome"></app-main>
+        </li>
+    </ol>
+
 </div>
