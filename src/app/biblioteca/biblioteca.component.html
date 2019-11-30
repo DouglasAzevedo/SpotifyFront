@@ -1,43 +1,27 @@
-<div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav root">
-                <li class="nav-item active">
-                    <a class="nav-link">Em destaque <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Podcasts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Generos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+
 
 <div class="root-list">
-    <h1>Recently Played</h1>
+    <h1>Recentemente ouvido</h1>
     <ol class="row list-unstyled">
         <li *ngFor="let a of albuns">
             <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome">
             </app-main>
         </li>
     </ol>
-    <h1>Recently Played</h1>
-    <span>As suas musicas mais ouvidas...</span>
+    <h1>Mais ouvidas</h1>
+    <span class="labels">As suas musicas mais ouvidas...</span>
     <ol class="row list-unstyled">
         <li *ngFor="let a of albuns">
             <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome"></app-main>
         </li>
     </ol>
-    <h1>Recently Played</h1>
+    <h1>Mais Votadas</h1>
     <ol class="row list-unstyled">
         <li *ngFor="let a of albuns">
             <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome"></app-main>
         </li>
     </ol>
-    <h1>Recently Played</h1>
+    <h1>Recomendadas</h1>
     <ol class="row list-unstyled">
         <li *ngFor="let a of albuns">
             <app-main class="text-center" [url]="a.url" [description]="a.description" [nome]="a.nome"></app-main>
